@@ -4,7 +4,7 @@
 	<groupId>in.mpcechno</groupId>
 	<artifactId>myapp</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.10</version>
+	<version>0.0.1</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -32,13 +32,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <name>Internal Snapshot Releases</name>	 
-		    <url>http://34.230.37.54:8081/repository/maven-snapshots/</url>
+		    <url>http://13.232.205.245:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
 		    <name>Internal Releases</name>
-		    <url>http://34.230.37.54:8081/repository/maven-releases/</url>
+		    <url>http://13.232.205.245:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
 	
